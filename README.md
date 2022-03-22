@@ -256,12 +256,7 @@ Use the Ansible sysctl module to use more virtual memory;
 Use the Ansible docker_container module to download and launch Elk container;
 Use the Ansible systemd module to enable service docker on boot.
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
-
-azadmin@DayProj1-ELK:~$ sudo docker ps
-CONTAINER ID   IMAGE          COMMAND                  CREATED      STATUS      PORTS                                                                              NAMES
-11f50db2114d   sebp/elk:761   "/usr/local/bin/star…"   6 days ago   Up 5 days   0.0.0.0:5044->5044/tcp, 0.0.0.0:5601->5601/tcp, 0.0.0.0:9200->9200/tcp, 9300/tcp   elk
-azadmin@DayProj1-ELK:~$ 
-
+ [Docker ps ](ELK-PROJECT/DIAGRAM/Docker-elk.png)
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
